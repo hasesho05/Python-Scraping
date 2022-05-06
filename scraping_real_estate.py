@@ -201,7 +201,7 @@ if __name__ == "__main__":
     webdriver_path = ".\\chromedriver_win32\\chromedriver.exe"  
     csv_dir_path = ".\\csv"  
     os.makedirs(csv_dir_path, exist_ok=True) 
-    keyword = "エステート白馬 東大宮" 
+    keyword = "" 
     url = "https://realestate.yahoo.co.jp/new/house/search/03/?query=" + keyword 
     pause_time_sec = 5  
 
